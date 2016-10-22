@@ -23,18 +23,20 @@
   "devDependencies": {
     "bootstrap": "^3.3.7"
   },
- "install" : {
-  "path" : {
-    "css": "src/css",
-    "js": "src/js"
+  "install": {
+    "path": {
+      "css": "src/css",
+      "js": "src/js"
     },
-  "sources" : {
-    "bootstrap" : [
-      "src/components/bootstrap/dist/css/bootstrap.css",
-      "src/components/bootstrap/dist/js/bootstrap.js",
-      "src/components/bootstrap/dist/js/npm.js"
-    ]
-
-  }
+    "sources": {
+      "bootstrap": [
+        "src/components/bootstrap/dist/css/bootstrap.css",
+        "src/components/bootstrap/dist/js/bootstrap.js",
+        "src/components/bootstrap/dist/js/npm.js"
+      ]
+    }
+  },
+  "dependencies": {
+    "three.js": "^0.81.0"
   }
 }
