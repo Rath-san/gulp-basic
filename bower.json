@@ -1,0 +1,40 @@
+{
+  "name": "gulp-build",
+  "description": "gulp build",
+  "main": "index.js",
+  "authors": [
+    "Raths-san"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "gulp",
+    "Rath-san",
+    "workflow"
+  ],
+  "homepage": "https://github.com/Rath-san/gulp-basic",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/components/",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "^3.3.7"
+  },
+ "install" : {
+  "path" : {
+    "css": "src/css",
+    "js": "src/js"
+    },
+  "sources" : {
+    "bootstrap" : [
+      "src/components/bootstrap/dist/css/bootstrap.css",
+      "src/components/bootstrap/dist/js/bootstrap.js",
+      "src/components/bootstrap/dist/js/npm.js"
+    ]
+
+  }
+  }
+}
